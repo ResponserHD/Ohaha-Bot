@@ -10,8 +10,8 @@ module.exports = {
     async execute(client) { 
 
         client.user.setActivity({
-            name: '🌍 Ohaha Yi',
-            type: ActivityType.Custom,
+            name: 'Ohaha',
+            type: ActivityType.Watching,
          //   url: 'https://www.twitch.tv/discord'
         });
 
